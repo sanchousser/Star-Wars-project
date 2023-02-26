@@ -112,7 +112,7 @@ li {
     align-items: center;
 }
 
-@media (max-height: 1500px) and (max-width: 1670px) {
+@media (max-height: 1500px) and (max-width: 1675px) {
     body{
         background: #2F575F;
     }
@@ -169,9 +169,9 @@ li {
     
     .hero-div {
         background-image: url(./Rectangle\ 27.jpg);
-        background-size: 1065px, 531px;
-        width: 1065px;
-        height: 531px;
+        background-size: 1346px, 637px;
+        width: 1346px;
+        height: 637px;
         border: 0px solid;
         border-radius: 80px;
         margin-top: 50px;
@@ -194,7 +194,7 @@ li {
     .link-list {
         color: white; 
         margin-right: 48px;
-        margin-top: 44px;
+        margin-top: 60px;
         font-size: 20px;
         font-family: 'Istok Web', sans-serif;
     }
@@ -203,8 +203,8 @@ li {
         background: rgba(217, 217, 217, 0.35);
         border: 0px solid;
         border-radius: 40px;
-        padding: 37px 54px;
-        margin-bottom: 12px;
+        padding: 42px 62px;
+        margin-bottom: 20px;
         text-align: center;
     }
     
@@ -215,7 +215,7 @@ li {
     
     .hero-text {
         font-family: 'Mr Dafoe', cursive;
-        font-size: 30px;
+        font-size: 39px;
         color: white;
     }
     
