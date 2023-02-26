@@ -1,0 +1,229 @@
+body{
+    background: #2F575F;
+}
+
+header {
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+
+.logo {
+    width: 205px;
+    height: 128px;
+    margin-top: 13px;
+    margin-left: 27px;
+    position: absolute;
+}
+
+.title {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 40px;
+
+}
+
+.titletext {
+    margin-top: 13px;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+
+}
+
+.pagetitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.telegram-link {
+    width: 15px;
+    height: 15px;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+
+.telegram-div {
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-div {
+    background-image: url(./Rectangle\ 27.jpg);
+    background-size: 1662px, 796px;
+    width: 1562px;
+    height: 796px;
+    border: 0px solid;
+    border-radius: 80px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+.link-list {
+    color: white; 
+    margin-right: 72px;
+    margin-top: 55px;
+    font-size: 34px;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.list-item {
+    background: rgba(217, 217, 217, 0.35);
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 54px 77px;
+    margin-bottom: 17px;
+    text-align: center;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-text {
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.hero-text-div {
+    margin-left: 107px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media all and (max-width: 1500px) {
+    body{
+        background: #2F575F;
+    }
+    
+    header {
+        display: flex;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .logo {
+        width: 158px;
+        height: 89px;
+        margin-top: 18px;
+        margin-left: 70px;
+        position: absolute;
+    }
+    
+    .title {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 40px;
+    
+    }
+    
+    .titletext {
+        margin-top: 13px;
+        font-size: 12px;
+        font-weight: 400;
+        color: white;
+    
+    }
+    
+    .pagetitle {
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    
+    .telegram-link {
+        width: 30px;
+        height: 30px;
+        margin-right: 200px;
+        margin-top: 50px;
+    }
+    
+    .telegram-div {
+        width: 100vw;
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .hero-div {
+        background-image: url(./Rectangle\ 27.jpg);
+        background-size: 1065px, 531px;
+        width: 1065px;
+        height: 531px;
+        border: 0px solid;
+        border-radius: 80px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .hero {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .link-list {
+        color: white; 
+        margin-right: 48px;
+        margin-top: 44px;
+        font-size: 20px;
+        font-family: 'Istok Web', sans-serif;
+    }
+    
+    .list-item {
+        background: rgba(217, 217, 217, 0.35);
+        border: 0px solid;
+        border-radius: 40px;
+        padding: 37px 54px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    
+    .list-item a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .hero-text {
+        font-family: 'Mr Dafoe', cursive;
+        font-size: 30px;
+        color: white;
+    }
+    
+    .hero-text-div {
+        margin-left: 107px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
