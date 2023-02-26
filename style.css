@@ -112,7 +112,7 @@ li {
     align-items: center;
 }
 
-@media all and (max-width: 1670px) {
+@media (max-height: 1500px) and (max-width: 1670px) {
     body{
         background: #2F575F;
     }
